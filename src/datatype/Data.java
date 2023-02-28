@@ -26,7 +26,14 @@ public class Data {
 	float f11=1.1233f;
 	double d1=1.123D; // double can be specified with D/d but this is not required as its default
 	double d=0123.123456;// this is changed to double decimal and its not octal.. even hexadecimal is not allowed
-	
+	double d3=0X786;
+	double d4=12e3;
+	char c2=97;// 0 to 65535, 1971 and 19710 will give same result as question mark as the value is not defined or font is not present
+	char c3=0xface;
+	char cf='\u0061';
+	System.out.println(cf);
+	System.out.println(d4);
+	System.out.println(d3);
 	System.out.println(O1);
 	System.out.println(h1);
 	System.out.println(h2);

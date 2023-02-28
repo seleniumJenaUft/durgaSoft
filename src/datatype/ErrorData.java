@@ -18,8 +18,9 @@ public class ErrorData {
 		boolean t="true" ;
 		float f1=123.2345;//have to explicityly define as float with F;
 //		float f2=0X12.1234f;
-//		double d23=0X123.13434;// compile time first error
-				
+//		double d23=0X123.13434;// compile time first error.invalid hex literal
+		double d=0786; // 8 is not allowed in octal so considered as int but the number is too large 
+		char c1='a';		
 		int x=0;
 		if(x)
 			System.out.println("false");
